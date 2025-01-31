@@ -38,3 +38,12 @@ Notes:
    * Determining order of completion for software builds
    * Data serialization
    * Resolving symbol dependencies
+ * Insight: by using a LIFO stack, popping from the stack, adding surrounding nodes (more than one if available), the nature of it means that you automatically traverse down a path until you hit your goal or a dead end and then return to the last viable path if your goal is not reached without additional coding or tracking.
+
+## Queues
+ * Like a line IRL
+ * Good for shared resources
+ * FIFO - Head/Tail
+ * Queue operations
+   * `enqueue` - add to the back
+   * `dequeue` - remove from the front

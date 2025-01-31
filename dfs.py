@@ -100,7 +100,7 @@ if __name__ == "__main__":
     assert result == [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
 
     # Test 2
-    maze = read_maze("mazes/mini_maze_dfs.txt")
+    maze = read_maze("../../Exercise Files/04_04_begin/mazes/mini_maze_dfs.txt")
     for row in maze:
         print(row)
     start_pos = (0, 0)
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     assert result == [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2)]
 
     # Test 3
-    maze = read_maze("mazes/mini_maze_dfs.txt")
+    maze = read_maze("../../Exercise Files/04_04_begin/mazes/mini_maze_dfs.txt")
     start_pos = (0, 0)
     goal_pos = (3, 3)
     result = dfs(maze, start_pos, goal_pos)
