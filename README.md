@@ -47,3 +47,19 @@ Notes:
  * Queue operations
    * `enqueue` - add to the back
    * `dequeue` - remove from the front
+
+## Breadth-first Search
+ * Queue-based implementation
+ * Radiates out from starting point
+ * Shortest path (w/o any edge weights)
+   * looks 1st edge away then increases
+ * Uses:
+   * GPS
+   * Flight reservations
+   * P2P neighbor nodes
+   * Solcial networking connections
+   * Web crawlers
+   * Lots of AI applications
+   * Electronics and communication
+   * Scientific modelling
+ * AKA "Flood fill"
