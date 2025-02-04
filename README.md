@@ -7,10 +7,10 @@ Notes:
  * Insertions and deletions are made at one end only
  * LIFO - Last-in First-out (like accounting)
  * Stack operations:
-   * `push` - add to the top
-   * `pop` - remove from the top and return value
-   * `peek` - see the last item without removing it
-   * `is_empty` - see if it's empty
+   * `push()` - add to the top
+   * `pop()` - remove from the top and return value
+   * `peek()` - see the last item without removing it
+   * `is_empty()` - see if it's empty
 
 ## 2D Lists
  * Lists of lists
@@ -45,8 +45,9 @@ Notes:
  * Good for shared resources
  * FIFO - Head/Tail
  * Queue operations
-   * `enqueue` - add to the back
-   * `dequeue` - remove from the front
+   * `enqueue()` - add to the back
+   * `dequeue()` - remove from the front
+   * `is_empty()`
 
 ## Breadth-first Search
  * Queue-based implementation
@@ -63,3 +64,19 @@ Notes:
    * Electronics and communication
    * Scientific modelling
  * AKA "Flood fill"
+
+## Priority Queue
+ * Resources need to be prioritized
+ * Like hospital triage
+ * Uses:
+   * AI, A* algorithm
+   * Optimizing algorithms
+   * OS System process scheduling
+   * Bandwidth Management
+   * Situational analysis
+   * Spam filtering
+ * Operations:
+   * `get()` - gets highest priority
+   * `put()` - adds an item
+   * `is_empty()`
+ * Can be added at any time, but only highest priority item can be grabbed
