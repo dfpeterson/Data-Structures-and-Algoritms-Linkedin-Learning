@@ -5,7 +5,7 @@ Notes:
 ## Stacks
  * Like a stack of plates
  * Insertions and deletions are made at one end only
- * LIFO - Last-in First-out (like accounting)
+ * __LIFO__ - Last-in First-out (like accounting)
  * Stack operations:
    * `push()` - add to the top
    * `pop()` - remove from the top and return value
@@ -22,7 +22,7 @@ Notes:
    * Values of nodes have weighted relationships
  * Obstacles 
    * Inaccessible nodes or areas
- * i, j notation (as opposed to x, y)
+ * _i_, _j_ notation (as opposed to _x_, _y_)
    * goes down and right
 
 ## Depth-first search
@@ -43,7 +43,7 @@ Notes:
 ## Queues
  * Like a line IRL
  * Good for shared resources
- * FIFO - Head/Tail
+ * __FIFO__ - Head/Tail
  * Queue operations
    * `enqueue()` - add to the back
    * `dequeue()` - remove from the front
@@ -58,7 +58,7 @@ Notes:
    * GPS
    * Flight reservations
    * P2P neighbor nodes
-   * Solcial networking connections
+   * Social networking connections
    * Web crawlers
    * Lots of AI applications
    * Electronics and communication
@@ -80,3 +80,25 @@ Notes:
    * `put()` - adds an item
    * `is_empty()`
  * Can be added at any time, but only highest priority item can be grabbed
+
+## The A* Algorithm
+ * Shortest paths
+ * Used in:
+   * Traffic navigation
+   * Social network analyses
+   * Natural language processing
+   * Machine learning
+   * Puzzle solutions and puzzle-like problems
+   * Algorithmic trading
+   * Robotics
+   * Video games
+ * Uses a heuristic to determine best path:
+   * Distance from path
+   * Can use euclidean distance
+ * Uses:
+   * __G-value__ - best distance from start to current
+   * __H-value__ - heuristic distance from current cell to destination
+   * __F-value__ - sum of __G-value__ and __H-value__
+ * Discovered vs Visited:
+   * __Open set__ - discovered, but not necessarily visited
+   * __Closed set__ - visited
